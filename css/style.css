@@ -1,0 +1,214 @@
+/*=========================================================================================*\
+
+=																							=
+
+=																							=
+
+=																							=
+
+=									MAIN CSS												=
+
+=																							=
+
+=																							=
+
+=																							=
+
+\*=========================================================================================*/
+
+:root{
+	--police-title: 'Cormorant Garamond', serif;
+	--police-normal: 'Proza Libre', sans-serif;
+
+}
+
+/*=============================================*\
+
+=												=
+
+=												=
+
+=												=
+
+=												=
+
+=												=
+
+\*=============================================*/
+
+
+
+
+
+/*=============================================*\
+
+=												=
+
+=												=
+
+=					NORMALIZE/GENERIQUE			=
+
+=												=
+
+=												=
+
+\*=============================================*/
+body{
+	font-family: var(--police-normal);
+}
+
+p{
+	text-align: justify;
+}
+.noPadding{
+
+	padding: 0!important;
+
+}
+
+.index0{
+
+	z-index: 0!important;
+
+}
+
+.index1{
+
+	z-index: 1!important;
+
+}
+
+.index2{
+
+	z-index: 2!important;
+
+}
+
+.policeTitle{
+	font-family: var(--police-title);
+	font-size: 1.5em;
+	text-shadow: 0 0 3px #8A8A8A;
+}
+.policeNormal{
+	font-family: var(--police-normal);
+}
+
+
+
+/*=============================================*\
+
+=												=
+
+=												=
+
+=					MODIF BOOTSTRAP				=
+
+=												=
+
+=												=
+
+\*=============================================*/
+
+.card{
+
+	width: calc(25% - 20px);
+
+	margin: 5px 10px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=============================================*\
+
+=												=
+
+=												=
+
+=					HEADER						=
+
+=												=
+
+=												=
+
+\*=============================================*/
+
+
+
+#headerBanner{
+
+	
+
+	height: 540px;
+
+	width: 100%;
+
+	padding: 0;
+
+	background-image: url('../img/banner.jpg');
+
+	background-size: 100% 540px;
+
+    background-repeat: cover;
+
+}
+
+
+
+
+
+#bannerText{
+
+	height: 100%;
+
+	width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 5em;
+
+    color: #FBFBFB;
+
+    text-shadow: 0 0 3px white;
+
+}
+
+
+
+
+
+/*=============================================*\
+
+=												=
+
+=												=
+
+=					CORPS						=
+
+=												=
+
+=												=
+
+\*=============================================*/
+
+
+
+.parts{
+
+	padding: 20px 0;
+
+}

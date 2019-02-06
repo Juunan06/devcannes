@@ -20,7 +20,7 @@
   <body>
  	<section class="container-fluid">
  		<header class="col-xl-12">
- 			Menu
+ 			<?php include __DIR__.'/nav.inc.php'; ?>
  		</header>
  		<!-- Début du contenu -->
  		<section class="col-xl-12 content">

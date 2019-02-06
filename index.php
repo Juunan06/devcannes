@@ -1,4 +1,3 @@
 <?php
-include './inc/global/header.inc.php';
-include './inc/views/empty.inc.php';
-include './inc/global/footer.inc.php';
+include __DIR__.'/inc/init.inc.php';
+

@@ -1,7 +1,7 @@
 		<!-- Fin du contenu -->
 		</section>
 		<footer class="col-xl-12">
- 			<p>&copy; - Copyright 2019 - DevCannes.com - Tous droits réservés</p>
+ 			<p>&copy; - Copyright 2018 - <?php echo date('Y') ?> | DevCannes.com | All Rights Reserved</p>
  		</footer>
 
 
